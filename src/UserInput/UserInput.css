@@ -1,0 +1,9 @@
+.UserInput {
+	border: 3px solid #000;
+	border-radius: 5px;
+}
+
+.UserInput:focus {
+	border: 2px solid #eee;
+	border-radius: 5px;
+}
