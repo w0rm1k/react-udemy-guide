@@ -13,7 +13,7 @@ const withClass = (WrappedComponent, className) => {
 		render() {
 			return (
 				<div className={className}>
-					<WrappedComponent ref={this.props.forwardRef} {...this.props} />
+					<WrappedComponent  ref={this.props.forwardRef} {...this.props} />
 				</div>
 			)
 		}
